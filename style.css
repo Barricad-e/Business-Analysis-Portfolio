@@ -89,6 +89,15 @@ header{
     margin:auto;
     margin-bottom:40px;
 }
+.profile-pic{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    margin-bottom:35px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
 
 /* ===========================
    BUTTONS
