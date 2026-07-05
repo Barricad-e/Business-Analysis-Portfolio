@@ -122,6 +122,23 @@ header{
     color:#1d4ed8;
 }
 
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-secondary{
+    background:#ffffff;
+    color:#1d4ed8;
+    border:2px solid white;
+}
+
+.btn-secondary:hover{
+    background:#38bdf8;
+    color:white;
+}
 /* ===========================
    SECTIONS
 =========================== */
