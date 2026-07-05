@@ -62,32 +62,42 @@ nav a:hover{
 =========================== */
 
 header{
-    min-height:90vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:40px;
-    background:linear-gradient(135deg,#0f172a,#1d4ed8);
+    padding:80px 10%;
     color:white;
+
+    background:
+    linear-gradient(rgba(8,15,40,.78),rgba(8,15,40,.78)),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?fit=crop&w=1800&q=80");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 .hero h1{
-    font-size:70px;
+    font-size:72px;
+    font-weight:700;
     margin-bottom:15px;
+    letter-spacing:-2px;
 }
 
 .hero h2{
-    font-size:32px;
-    font-weight:400;
+    .hero h2{
+    font-size:30px;
+    color:#7dd3fc;
     margin-bottom:25px;
 }
 
 .hero p{
-    font-size:20px;
-    max-width:800px;
-    margin:auto;
-    margin-bottom:40px;
+    max-width:850px;
+    margin:0 auto 40px;
+    font-size:22px;
+    line-height:1.8;
 }
 .profile-pic{
     width:220px;
@@ -279,4 +289,37 @@ section h2{
 font-size:32px;
 }
 
+}
+.projects{
+    margin-top:50px;
+}
+
+.project{
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.project img{
+    transition:.5s;
+}
+
+.project:hover img{
+    transform:scale(1.08);
+}
+
+.project:hover{
+    transform:translateY(-12px);
+}
+
+.project h3{
+    font-size:30px;
+}
+
+.project p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+section{
+    padding:110px 10%;
 }
