@@ -221,6 +221,10 @@ section h2{
     height:250px;
     background:url("images/bikegear-cover.png") center/cover;
 }
+.salesforce-img{
+height:250px;
+background:url("images/salesforce.jpg") center/cover;
+}
 .project-content{
     padding:30px;
 }
