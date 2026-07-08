@@ -86,14 +86,14 @@ header{
 }
 
 .hero h1{
-    font-size:76px;
+    font-size:60px;
     font-weight:700;
-    margin-bottom:10px;
+    margin-bottom:15px;
     letter-spacing:-2px;
 }
 
 .hero h2{
-    font-size:34px;
+    font-size:32px;
     color:#38bdf8;
     margin-bottom:25px;
     font-weight:500;
