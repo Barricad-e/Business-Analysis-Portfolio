@@ -397,3 +397,56 @@ section p{
 .project{
     overflow:hidden;
 }
+
+    .projects{
+    display:grid !important;
+    grid-template-columns:repeat(2, 1fr) !important;
+    gap:40px !important;
+    align-items:start !important;
+}
+
+.project{
+    display:block !important;
+    background:white !important;
+    border-radius:24px !important;
+    overflow:hidden !important;
+    height:auto !important;
+}
+
+.project-img{
+    display:block !important;
+    height:250px !important;
+    min-height:250px !important;
+    width:100% !important;
+    background-size:cover !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+}
+
+.project-content{
+    padding:35px !important;
+}
+
+.barrel-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/barrel.png") !important;
+}
+
+.bikegear-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/bikegear-cover.png") !important;
+}
+
+.hospital-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/Hospital Transactions Dashboard - Performance.jpg") !important;
+}
+
+.salesforce-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/salesforce.png") !important;
+}
