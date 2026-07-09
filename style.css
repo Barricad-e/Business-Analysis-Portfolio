@@ -326,3 +326,12 @@ section h2{
     border-radius:18px;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
+
+.bikegear-case-img{
+    display:block;
+    width:65%;
+    max-width:650px;
+    margin:25px auto;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
