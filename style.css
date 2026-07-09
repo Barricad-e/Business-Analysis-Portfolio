@@ -450,3 +450,42 @@ section p{
     linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
     url("images/salesforce.png") !important;
 }
+
+.projects{
+    display:grid !important;
+    grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+    gap:40px !important;
+    max-width:1200px !important;
+    margin:0 auto !important;
+}
+
+.project-img{
+    height:250px !important;
+    min-height:250px !important;
+    width:100% !important;
+    display:block !important;
+    background-size:cover !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+}
+
+.hospital-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/Hospital Transactions Dashboard - Performance.jpg") !important;
+}
+
+.salesforce-img{
+    background-image:
+    linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
+    url("images/salesforce.png") !important;
+}
+
+footer{
+    text-align:center !important;
+    padding:30px 10% !important;
+}
+
+#contact, #contact p{
+    text-align:center !important;
+}
