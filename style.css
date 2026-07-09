@@ -222,11 +222,11 @@ section h2{
 .bikegear-img{
     height:250px;
     background:url("images/bikegear-cover.png") center/cover;
-}
 .salesforce-img{
+    height:250px;
     background:
-    linear-gradient(rgba(15,23,42,.15),rgba(15,23,42,.15)),
-    url("images/salesforce.jpg");
+        linear-gradient(rgba(15,23,42,.15), rgba(15,23,42,.15)),
+        url("images/salesforce.png");
     background-size:cover;
     background-position:center;
 }
