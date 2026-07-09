@@ -319,8 +319,10 @@ section h2{
 }
 
 .case-img{
-    width:100%;
+    display:block;
+    width:85%;
+    max-width:850px;
+    margin:30px auto;
     border-radius:18px;
-    margin:20px 0;
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
