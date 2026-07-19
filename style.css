@@ -341,5 +341,17 @@ section h2{
 .bikegear-case-img{
     width:100%;
 }
+.hygieia-hero {
+  display: block;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.hygieia-hero h1,
+.hygieia-hero h2,
+.hygieia-hero p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
