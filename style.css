@@ -201,6 +201,12 @@ section h2{
     background-repeat:no-repeat;
 }
 
+.hygieia-img {
+  background-image: url("images/project-hygieia.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .barrel-img{
     background-image:
     linear-gradient(rgba(15,23,42,.10),rgba(15,23,42,.10)),
