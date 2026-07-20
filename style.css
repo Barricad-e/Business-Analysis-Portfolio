@@ -355,3 +355,21 @@ section h2{
   margin-right: auto;
 
 }
+
+.project-hero.hygieia-hero {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  gap: 18px !important;
+  padding: 90px 10% !important;
+}
+
+.project-hero.hygieia-hero .hero-badge,
+.project-hero.hygieia-hero h1,
+.project-hero.hygieia-hero h2,
+.project-hero.hygieia-hero p {
+  max-width: 900px;
+  margin: 0 auto;
+}
