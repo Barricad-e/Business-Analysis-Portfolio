@@ -373,3 +373,10 @@ section h2{
   max-width: 900px;
   margin: 0 auto;
 }
+
+.project-content .btn {
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  border-radius: 30px;
+  margin-top: 15px;
+}    
