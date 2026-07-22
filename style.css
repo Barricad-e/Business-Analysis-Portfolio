@@ -433,3 +433,11 @@ section h2{
   font-size: 0.95rem !important;
   line-height: 1.55 !important;
 }
+    .hospital-dashboard {
+  display: block !important;
+  width: 75% !important;
+  max-width: 850px !important;
+  height: auto !important;
+  margin: 30px auto !important;
+  border-radius: 14px !important;
+}
