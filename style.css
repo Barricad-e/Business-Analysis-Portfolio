@@ -379,4 +379,26 @@ section h2{
   font-size: 0.95rem;
   border-radius: 30px;
   margin-top: 15px;
+} 
+
+.project,
+.project-card {
+  max-width: 520px;
+}
+
+.project-img {
+  height: 220px !important;
+}
+
+.project-content {
+  padding: 28px !important;
+}
+
+.project-content h3 {
+  font-size: 1.35rem !important;
+}
+
+.project-content p {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
 }    
