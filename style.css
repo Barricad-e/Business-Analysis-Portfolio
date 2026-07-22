@@ -402,3 +402,34 @@ section h2{
   font-size: 1rem !important;
   line-height: 1.6 !important;
 }    
+.projects-container,
+.projects-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 420px)) !important;
+  gap: 35px !important;
+  justify-content: center !important;
+}
+
+.project,
+.project-card {
+  width: 100% !important;
+  max-width: 420px !important;
+}
+
+.project-img {
+  height: 200px !important;
+}
+
+.project-content {
+  padding: 24px !important;
+}
+
+.project-content h3 {
+  font-size: 1.25rem !important;
+  line-height: 1.35 !important;
+}
+
+.project-content p {
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+}
