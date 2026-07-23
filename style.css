@@ -441,88 +441,58 @@ section h2{
   margin: 30px auto !important;
   border-radius: 14px !important;
 }
-/* FIX BUSINESS PROJECT SECTION */
+/* FORCE THE BUSINESS PROJECTS BACK INTO CARD FORMAT */
 
-.business-projects-section {
-  padding: 70px 5%;
+#projects > div:last-child {
+  display: grid !important;
+  grid-template-columns: repeat(2, 420px) !important;
+  gap: 40px !important;
+  justify-content: center !important;
+  align-items: stretch !important;
 }
 
-.business-projects-section .section-heading {
-  text-align: center;
-  max-width: 1000px;
-  margin: 0 auto 40px;
+#projects .project {
+  display: block !important;
+  width: 420px !important;
+  max-width: 420px !important;
+  overflow: hidden !important;
+  border-radius: 18px !important;
 }
 
-.business-projects-section .section-label {
-  display: inline-block;
-  margin-bottom: 12px;
-  font-size: 16px;
-  font-weight: 500;
+#projects .project-img {
+  display: block !important;
+  width: 100% !important;
+  height: 190px !important;
+  min-height: 190px !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
-.business-projects-section .section-intro {
-  max-width: 900px;
-  margin: 15px auto 35px;
-  text-align: center;
+#projects .project-content {
+  display: block !important;
+  width: auto !important;
+  padding: 24px !important;
 }
 
-/* Restore proper project-card grid */
-.business-projects-section .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 420px));
-  justify-content: center;
-  align-items: stretch;
-  gap: 40px;
+#projects .project-content h3,
+#projects .project-content p {
+  width: auto !important;
+  max-width: 100% !important;
 }
 
-/* Stop cards from becoming wide horizontal banners */
-.business-projects-section .project {
-  display: block;
-  width: 100%;
-  max-width: 420px;
-  overflow: hidden;
-}
-
-/* Restore normal image size */
-.business-projects-section .project-img {
-  width: 100%;
-  height: 190px;
-  display: block;
-  background-size: cover;
-  background-position: center;
-}
-
-/* Restore normal card content */
-.business-projects-section .project-content {
-  display: block;
-  padding: 24px;
-}
-
-.business-projects-section .project-content h3 {
-  margin-top: 12px;
-}
-
-.business-projects-section .project-content p {
-  margin-bottom: 22px;
-}
-
-/* Mobile layout */
 @media (max-width: 950px) {
-  .business-projects-section .projects-grid {
-    grid-template-columns: minmax(0, 420px);
+  #projects > div:last-child {
+    grid-template-columns: 420px !important;
   }
 }
 
 @media (max-width: 500px) {
-  .business-projects-section {
-    padding: 50px 20px;
+  #projects > div:last-child {
+    grid-template-columns: 1fr !important;
   }
 
-  .business-projects-section .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .business-projects-section .project {
-    max-width: 100%;
+  #projects .project {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
