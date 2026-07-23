@@ -480,3 +480,78 @@ footer{
         max-width:100% !important;
     }
 }
+/* GIS PROJECT CARDS */
+
+#gis-projects .projects,
+#gis-projects .projects-grid,
+#gis-projects .projects-container {
+    display:grid !important;
+    grid-template-columns:repeat(2, minmax(0, 420px)) !important;
+    gap:40px !important;
+    justify-content:center !important;
+    align-items:stretch !important;
+    max-width:1200px !important;
+    margin:0 auto !important;
+}
+
+#gis-projects .project,
+#gis-projects .project-card {
+    display:block !important;
+    width:100% !important;
+    max-width:420px !important;
+    overflow:hidden !important;
+    border-radius:22px !important;
+    background:white !important;
+}
+
+#gis-projects .project-img {
+    display:block !important;
+    width:100% !important;
+    height:200px !important;
+    min-height:200px !important;
+    background-size:cover !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+}
+
+#gis-projects .project-content {
+    display:block !important;
+    width:100% !important;
+    padding:24px !important;
+}
+
+#gis-projects .project-content h3 {
+    font-size:1.25rem !important;
+    line-height:1.35 !important;
+    margin-bottom:15px !important;
+}
+
+#gis-projects .project-content p {
+    width:100% !important;
+    max-width:100% !important;
+    font-size:0.95rem !important;
+    line-height:1.55 !important;
+    margin-bottom:25px !important;
+}
+
+@media(max-width:950px) {
+    #gis-projects .projects,
+    #gis-projects .projects-grid,
+    #gis-projects .projects-container {
+        grid-template-columns:minmax(0, 420px) !important;
+    }
+}
+
+@media(max-width:500px) {
+    #gis-projects .projects,
+    #gis-projects .projects-grid,
+    #gis-projects .projects-container {
+        grid-template-columns:1fr !important;
+        gap:25px !important;
+    }
+
+    #gis-projects .project,
+    #gis-projects .project-card {
+        max-width:100% !important;
+    }
+}
